@@ -1,0 +1,6 @@
+oxingt= px.box(data_frame=df, x="MUNICIPIO", y="INGTOT", color= "MUNICIPIO", points ="all",  title='INGTOT', boxmode="overlay", category_orders= {"MUNICIPIO": ["Medellin", "Bogotá", "Cali"]}, 
+               color_discrete_map={'Bogotá':'gold',
+                                 'Medellin':'silver',
+                                 'Cali':'brown',},
+               width=800, height=500
+               )
